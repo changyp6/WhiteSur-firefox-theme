@@ -49,21 +49,22 @@ toolbarspring {
 #wrapper-urlbar-container,
 #urlbar #urlbar-input-container {
 	padding: 0 !important;
-	width: 360px !important;
+	max-width: 448px !important;
 	min-width: 360px !important;
 }
 
 :root[sizemode="maximized"] #urlbar,
 :root[sizemode="maximized"] #urlbar-container,
+:root[sizemode="maximized"] #urlbar-input-container,
 :root[sizemode="maximized"] #wrapper-urlbar-container {
-	width: 360px !important;
+	max-width: 448px !important;
 	min-width: 360px !important;
 }
 
 #urlbar[breakout][breakout-extend] {
 	left: 0 !important;
 	top: 0 !important;
-	width: 360px !important;
+	min-width: 360px !important;
 	z-index: 5 !important;
 	padding: 0 0 !important;
 	border-radius: 10px !important;
